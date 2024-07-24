@@ -9,5 +9,5 @@ print(type(0)) #e uma class
 print(5.2 + 7.8) 
 # ctrl + k + crtl + c = comentar código
 
-print(1 == 1) #Boolean muito usado no if de true e false 
+print(1 == 1) #Boolean represetado como true e false pode ser comparado com o if e o else usado no java
 print(1 == 45)
