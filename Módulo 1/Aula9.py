@@ -2,7 +2,7 @@
 #se, se não se, se não
 #o else depedede do if mas e idenpedente do elif
 
-# entrada = input('Você quer "entra" ou "sair"? ')
+entrada = input('Você quer "entra" ou "sair"? ')
 
 if entrada == 'entrar':
     print('Você entrou no sistema!')
