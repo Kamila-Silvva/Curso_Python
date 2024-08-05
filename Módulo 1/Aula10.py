@@ -9,3 +9,4 @@ elif numero1 <= numero2:
 else:
     print('Essa condição não e válida')
     
+ 
