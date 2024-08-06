@@ -6,7 +6,7 @@ or = ou
 not = não
 and = Todas as condições precisam ser verdadeiras
 Se qualquer valor for considerado falso, a expressão inteira será avaliada naqeuele valor
-São considerados *falsy* == 0 0.0 '' False
+São considerados *falsy* == 0 / 0.0 / '' /False
 None = usado para representar um não valor 
 """
 
@@ -15,7 +15,7 @@ senhaDigitada = input('Senha: ')
 
 senhaPermitda = 'Ksk2209*'
 
-if entrada == 'E' and senhaDigitada == senhaPermitda:
+if entrada == 'E' and senhaDigitada == senhaPermitda: #para o and funcionar a primeira condição precisa ser verdadeira e usado para checar mais de uma condição
     print('Entrar')
 else:
     print('Sair')
