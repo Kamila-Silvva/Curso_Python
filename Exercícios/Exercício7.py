@@ -11,7 +11,7 @@ dias = {
 numero = int(input('Digite um número de 1 á 7: '))
 
 if numero in dias: #número em dias
-    print(dias[numero])
+    print(dias[numero]) #dias chama o nome do dia da semana e número se refere ao dias
 else:
     print('Este dia e inválido!!')
 
