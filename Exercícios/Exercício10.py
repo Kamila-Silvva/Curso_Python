@@ -30,9 +30,9 @@ else:
     print('Tempo de experiência insuficiente para solicitar o empréstimo.')
 
 # Verificação de restrições no CPF
-titular_restricoes = input('Tem restrições no CPF? (Responda com Sim ou Não): ')
+titular_restricoes = input('Tem restrições no CPF? (Responda com [Sim] ou [Não]): ')
 
-if titular_restricoes.lower() == 'não':
+if titular_restricoes == 'Não':
     print('Titular sem restrições no CPF.')
 else:
     print('Titular com restrições no CPF. Não é apto para solicitar o empréstimo!')
