@@ -13,7 +13,7 @@ else:
 
 # Verificação da renda
 titular_renda = float(input('Renda mensal do titular: '))
-renda_minima = 3000.00
+renda_minima = 3000
 
 if titular_renda >= renda_minima:
     print('Renda apta para solicitar empréstimo.')
