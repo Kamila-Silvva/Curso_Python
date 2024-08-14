@@ -2,7 +2,7 @@
 > - Esquerda 
 < - Direita
 ^ - centro
-= - força o npumero a aparecer antes dos zeros
+= - força o numero a aparecer antes dos zeros
 Sinal - + ou -
 Ex: 0>-100,1f
 Conversion flags - !r !s !a
